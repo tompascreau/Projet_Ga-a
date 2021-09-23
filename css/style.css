@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  text-align: center;
+}
+header .image_header {
+  margin: auto;
+  position: relative;
+  max-width: 60%;
+}
+header .image_header img {
+  position: relative;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

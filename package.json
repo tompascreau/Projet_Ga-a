@@ -1,0 +1,23 @@
+{
+  "name": "projet_ga-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test" : "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tompascreau/Projet_Ga-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tompascreau/Projet_Ga-a/issues"
+  },
+  "homepage": "https://github.com/tompascreau/Projet_Ga-a#readme"
+}
