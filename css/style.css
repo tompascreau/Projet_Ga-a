@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "clearSans";
-  src: url("/fonts/clear-sans/ClearSans-Regular.ttf") format("ttf");
+  src: url("/fonts/clear-sans/ClearSans-Medium.ttf") format("ttf");
 }
 
 h1, h2, h3, h4, h5, h6, p
@@ -26,9 +26,9 @@ h1
 {
   color: #FFFFFF;
   margin: auto;
-  font-size: 38px;
+  font-size: 46px;
   font-family: "clearSans";
-  font-weight: normal;
+  font-weight: 100;
 }
 
 h3
@@ -69,7 +69,7 @@ a
   color: #FFFFFF;
   font-family: "Lato";
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 24px;
 }
 
@@ -104,7 +104,8 @@ header
 
 .list__element
 {
-  padding: 15px;
+  padding: 0 15px;
+  max-height: 60px;
 }
 
 /**
