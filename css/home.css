@@ -1,0 +1,102 @@
+@font-face 
+{
+  font-family: "Lato";
+  src: url("/fonts/Lato/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "clearSans";
+  src: url("/fonts/clear-sans/ClearSans-Medium.ttf") format("ttf");
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+  margin: 0;
+  padding: 0;
+  color: #0C2242;
+}
+
+body 
+{
+  margin: 0;
+  height: 100vh;
+  padding: 0 5%;
+  background-color: #0C2242;
+}
+
+h1
+{
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: "clearSans";
+  font-weight: 100;
+}
+
+h3
+{
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: "clearsans";
+}
+
+a
+{
+  color: #FFFFFF;
+  font-family: "Lato";
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+header
+{
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+.content
+{
+    margin: auto 0;
+}
+
+.content__titles
+{
+    width: fit-content;
+    margin-bottom: 10%;
+}
+
+.content__titles__line
+{
+    height: 2px;
+    width: 70%;
+    background-color: #B97464;
+}
+
+main
+{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button
+{
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    color: #FFFFFF;
+    border: #FFFFFF solid 2px;
+    background-color: #0C2242;
+}
+
+button:hover
+{
+    color: #B97464;
+    border: #B97464 solid 2px;
+    background-color: #0C2242;
+}
