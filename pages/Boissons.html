@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/cartes.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/carte.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/044c934e31.js" crossorigin="anonymous"></script>
     <title>Le Gaïa Restaurant - Boissons</title>
 </head>
 <body>
     <header>
+        <a href="../index.html" class="back"><i class="fa-solid fa-chevron-left"></i></a>
         <div class="title">
-            <h1>Menu</h1>
+            <h1>Boissons</h1>
         </div>
         <section class="list">
             <div class="list__element">
                 <h3> <a href="#">Tout</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#boissons">Boissons</a></h3>
+                <h3><a href="#softs">Softs</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#">Entrées</a></h3>
+                <h3><a href="#aperitifs">Apéritifs</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#">Plats</a></h3>
+                <h3><a href="#bieres">Bières</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#">Desserts</a></h3>
+                <h3><a href="#spiritueux">Spiritueux</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#">Vins</a></h3>
+                <h3><a href="#chauds">Chauds</a></h3>
             </div>
         </section>
+        <div class="anchor" id="softs"></div>
     </header>
 
     <main>
 
 <!--Début de section Jus de Fruits-->
 
-        <section class="content" id="boissons">
+        <section class="content">
             <div class="content__title">
                 <h3>Jus de Fruits</h3>
             </div>
@@ -73,9 +76,9 @@
 
 <!--Début de section Sodas-->
 
-<section class="content" id="boissons">
+<section class="content">
     <div class="content__title">
-        <h3>Sodas </h3>
+        <h3>Sodas 33cl</h3>
     </div>
     <div class="content__main">
         <div class="content__main__container">
@@ -93,9 +96,45 @@
 
 <!--Fin de section Sodas-->
 
+<!--Début de section Eaux-->
+
+<section class="content">
+    <div class="content__title">
+        <h3>Eaux 50cl</h3>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Vittel</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>2,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>San Pellegrino</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>2,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="anchor" id="aperitifs"></div>
+</section>
+
+<!--Fin de section Eaux-->
+
 <!--début de section Apéritifs-->
 
-        <section class="content" id="boissons">
+        <section class="content">
             <div class="content__title">
                 <h3>Apéritifs</h3>
             </div>
@@ -226,6 +265,7 @@
                     </div>
                 </div>
             </div>
+            <div class="anchor" id="bieres"></div>
         </section>
 
 <!--Fin de section Apéritifs-->
@@ -430,13 +470,370 @@
                     </div>
                 </div>
             </div>
+            <div class="anchor" id="spiritueux"></div>
         </section>
 
 <!--Fin de section Bières Bouteilles-->
 
-    </main>
-    <footer>
+<!--Début de section Rhums-->
 
+<section class="content">
+    <div class="content__title">
+        <h3>Rhums</h3>
+        <div class="content__title__quantity">
+            <div class="content__title--quantity__right">
+                <h4>4cl</h4>
+            </div>
+        </div>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Trois rivières</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Havana especial</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Diplomatico</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>7,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Black Tot</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>9,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Arrangés maison</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,50</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Fin de section Rhums-->
+
+<!--Début de section Whiskies-->
+
+<section class="content">
+    <div class="content__title">
+        <h3>Whiskies</h3>
+        <div class="content__title__quantity">
+            <div class="content__title__quantity__left">
+                <h4>2cl</h4>
+            </div>
+            <div class="content__title__quantity__right">
+                <h4>4cl</h4>
+            </div>
+        </div>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Ballantines</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__left">
+                <h6>3,00</h6>
+            </div>
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Aberlour</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__left">
+                <h6>4,50</h6>
+            </div>
+            <div class="content__main__price__right">
+                <h6>9,00</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Fin de section Whiskies-->
+
+<!--Début de section Alcools-->
+
+<section class="content">
+    <div class="content__title">
+        <h3>Alcools</h3>
+        <div class="content__title__quantity">
+            <div class="content__title__quantity__right">
+                <h4>4cl</h4>
+            </div>
+        </div>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Vodka Eristoff</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Gin Gibson's</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Fin de section Alcools-->
+
+<!--Début de section Digestifs-->
+
+<section class="content">
+    <div class="content__title">
+        <h3>Digestifs</h3>
+        <div class="content__title__quantity">
+            <div class="content__title__quantity__right">
+                <h4>4cl</h4>
+            </div>
+        </div>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Bailey's</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Cognac Donjon</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Menthe pastille</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Manzana</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>6,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="anchor" id="chauds"></div>
+</section>
+
+<!--Fin de section Digestifs-->
+
+<!--Début de section Chauds-->
+
+<section class="content">
+    <div class="content__title">
+        <h3>Boissons Chaudes</h3>
+    </div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Expresso</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>1,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Allongé</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>1,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Cappucino</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>4,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Double expresso</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>3,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Décaféiné</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>1,50</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Chocolat chaud</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>4,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Thé Dammann</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>4,00</h6>
+            </div>
+        </div>
+    </div>
+    <div class="content__line"></div>
+    <div class="content__main">
+        <div class="content__main__container">
+            <div class="content__main__container__name">
+                <h5>Infusion</h5>
+            </div>
+        </div>
+        <div class="content__main__price">
+            <div class="content__main__price__right">
+                <h6>4,00</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Fin de section Chauds-->
+
+    </main>
+    <footer class="infos">
+        <div class="infos__content">
+            <p class="infos__content__plus">Supplément soda 1,50€</p>
+            <p class="infos__content__plus">Tous les prix sont affichés en Euros, Taxes et service compris</p>
+            <p class="infos__content__plus">Le tableau des allergènes est disponible sur demande</p>
+            <p class="infos__content__plus">Veuillez vous adresser au personnel pour toute demande d'informations complémentaires</p>
+        </div>
+        <div class="infos__droits">
+            <p class="infos__droits__plus">Tous droits réservés - le Gaïa 2022</p>
+        </div>
     </footer>
 </body>
 </html>

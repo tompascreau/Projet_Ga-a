@@ -1,23 +1,20 @@
 {
-  "name": "projet_ga-a",
+  "name": "projet_gaia",
   "version": "1.0.0",
-  "description": "",
+  "description": "site web et carte online pour le restaurant le gaia",
   "main": "index.js",
-  "dependencies": {
-    "sass": "^1.42.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test" : "sass --watch ./sass/main.scss:./css/style.css"
+    "homeSass": "sass --watch ./sass/home.scss:./public/css/home.css",
+    "carteSass": "sass --watch ./sass/carte.scss:./public/css/carte.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tompascreau/Projet_Ga-a.git"
+    "url": "git+https://github.com/tompascreau/Projet_Gaia.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tompascreau/Projet_Ga-a/issues"
+    "url": "https://github.com/tompascreau/Projet_Gaia/issues"
   },
-  "homepage": "https://github.com/tompascreau/Projet_Ga-a#readme"
+  "homepage": "https://github.com/tompascreau/Projet_Gaia#readme"
 }
