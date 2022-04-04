@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, h6, p
   color: $secondary-color;
 }
 
+html
+{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 body 
 {
   margin: 0;
@@ -166,7 +172,7 @@ header
 
 main
 {
-  margin: 0 5%;
+    margin: 0 5%;
 }
 
 .content
