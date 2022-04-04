@@ -172,12 +172,17 @@ main
   &__main
   {
     display: flex;
-    margin: 10px 0;
+    margin: 15px 0 10px 0;
     justify-content: space-between;
     &__container
     {
-      display: flex;
-      align-items: center;
+        &__details
+        {
+            & span
+            {
+                font-style: italic;
+            }
+        }
       &__name
       {
         &--group

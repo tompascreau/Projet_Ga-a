@@ -124,14 +124,15 @@ main {
   background-color: #B97464; }
 .content__main {
   display: flex;
-  margin: 15px 0 10px 0;
+  margin: 10px 0;
   justify-content: space-between; }
-  .content__main__container__details span {
-    font-style: italic; }
-  .content__main__container__name--group {
-    font-weight: 100 !important; }
-  .content__main__container__quantity {
-    margin: 5px; }
+  .content__main__container {
+    display: flex;
+    align-items: center; }
+    .content__main__container__name--group {
+      font-weight: 100 !important; }
+    .content__main__container__quantity {
+      margin: 5px; }
   .content__main__price {
     display: flex; }
     .content__main__price__right {
@@ -162,4 +163,4 @@ main {
   Fin de la partie footer
 */
 
-/*# sourceMappingURL=carte.css.map */
+/*# sourceMappingURL=boissons.css.map */

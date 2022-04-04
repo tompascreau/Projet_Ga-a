@@ -1,13 +1,4 @@
-@font-face 
-{
-  font-family: "Lato";
-  src: url("/fonts/Lato/Lato-Regular.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "clearSans";
-  src: url("/fonts/clear-sans/ClearSans-Medium.ttf") format("ttf");
-}
+@import "../base/fonts.scss";
 
 $primary-color: #FFFFFF;
 $secondary-color: #0C2242;
