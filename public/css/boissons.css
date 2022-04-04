@@ -5,6 +5,72 @@
 @font-face {
   font-family: "clearSans";
   src: url("/fonts/clear-sans/ClearSans-Medium.ttf") format("ttf"); }
+.loader {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0C2242;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: disparition 2.5s; }
+  .loader .inside {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-right: 5px solid #B97464;
+    border-top: 5px solid #0C2242;
+    border-bottom: 5px solid #0C2242;
+    border-left: 5px solid #0C2242;
+    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+    animation: rotation 1200ms ease-in-out;
+    animation-iteration-count: infinite; }
+  .loader .center {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-right: 5px solid #0C2242;
+    border-top: 5px solid #0C2242;
+    border-bottom: 5px solid #FFFFFF;
+    border-left: 5px solid #0C2242;
+    border-radius: 35px;
+    animation: rotation 1200ms ease-in-out;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    color: #0C2242; }
+  .loader .outside {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    border-right: 5px solid #B97464;
+    border-top: 5px solid #0C2242;
+    border-bottom: 5px solid #B97464;
+    border-left: 5px solid #0C2242;
+    border-radius: 50px;
+    animation: rotation 1200ms ease-in-out;
+    animation-iteration-count: infinite;
+    color: #0C2242; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0turn); }
+  to {
+    transform: rotate(1turn); } }
+@keyframes disparition {
+  0% {
+    z-index: 999;
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    z-index: -1;
+    opacity: 0; } }
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
@@ -92,6 +158,25 @@ header {
   .list__element {
     padding: 0 15px;
     max-height: 60px; }
+
+.list::-webkit-scrollbar {
+  width: 0px;
+  /* width of the entire scrollbar */
+  height: 6px; }
+
+.list::-webkit-scrollbar-track {
+  background: #0C2242;
+  /* color of the tracking area */ }
+
+.list::-webkit-scrollbar-thumb {
+  background-color: #B97464;
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+  width: 10px;
+  border: 1px solid #0C2242;
+  /* creates padding around scroll thumb */
+  margin: 0 5px; }
 
 .anchor {
   height: 0%;
