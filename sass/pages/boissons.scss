@@ -80,6 +80,16 @@ a:hover
     color: $tertiary-color;
 }
 
+#progress{
+	background-color: #839c49;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */
+}
+
 
 /**
   Début section header
