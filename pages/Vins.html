@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/044c934e31.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/Script.js" async></script>
     <title>Le Gaïa Restaurant - Boissons</title>
 </head>
 <body>
@@ -27,9 +28,6 @@
                 <h3><a href="#verres">Verres</a></h3>
             </div>
             <div class="list__element">
-                <h3><a href="#carafes">Carafes</a></h3>
-            </div>
-            <div class="list__element">
                 <h3><a href="#blancs">Blancs</a></h3>
             </div>
             <div class="list__element">
@@ -46,6 +44,7 @@
     <div class="anchor" id="verres"></div>
 
     <main>
+        <div id="progress"></div>
 
 <!--Début de section Verres-->
 
@@ -141,7 +140,7 @@
             <div class="content__main">
                 <div class="content__main__container">
                     <div class="content__main__container__name">
-                        <h5>Saint Nicolas</h5>
+                        <h5>Pinot Noir</h5>
                     </div>
                     <div class="content__main__container__details">
                         <p>Rouge</p>
@@ -158,36 +157,6 @@
 
 <!--Fin de section Verres-->
 
-<!--Début de section Carafes-->
-
-        <section class="content">
-            <div class="content__title">
-                <h3>Carafes</h3>
-                <div class="content__title__quantity">
-                    <div class="content__title__quantity__right">
-                        <h4>50cl</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="content__main">
-                <div class="content__main__container">
-                    <div class="content__main__container__name">
-                        <h5>Vin de Brem</h5>
-                    </div>
-                    <div class="content__main__container__details">
-                        <p>Blanc</p>
-                    </div>
-                </div>
-                <div class="content__main__price">
-                    <div class="content__main__price__right">
-                        <h6>7,50</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="anchor" id="blancs"></div>
-        </section>
-
-<!--Fin de section Carafes-->
 
 <!--Début de section Blancs-->
 
@@ -210,7 +179,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>J.Mourat
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -231,7 +200,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Gaël Crochet
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -249,7 +218,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Le Chaillou
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -267,7 +236,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Domaine Petit et Fille
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -286,7 +255,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Domaine de la Motte
-                            <br><span>Bourgogne - France</span>
+                            <br><span>Bourgogne - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -305,7 +274,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Domaine Eric Gelly
-                            <br><span>Pays d'Oc - France</span>
+                            <br><span>Pays d'Oc - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -324,7 +293,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Stellenrust
-                            <br><span>Afrique Du Sud</span>
+                            <br><span>Afrique Du Sud <img src="../images/Flags/AfriqueDuSud.webp" alt="drapeau de l'afrique du sud" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -343,7 +312,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Dry Dereszia
-                            <br><span>Hongrie</span>
+                            <br><span>Hongrie <img src="../images/Flags/Hongrie.webp" alt="drapeau de la hongrie" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -362,7 +331,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Santa Anastasia
-                            <br><span>Italie</span>
+                            <br><span>Italie <img src="../images/Flags/Italie.webp" alt="drapeau de l'italie" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -399,7 +368,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>J.Mourat
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -420,7 +389,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Domaine Eric Gelly
-                            <br><span>Pays d'Oc - France</span>
+                            <br><span>Pays d'Oc - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -438,7 +407,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Chateau Minuty
-                            <br><span>Côtes de provence - France</span>
+                            <br><span>Côtes de provence - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -456,7 +425,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>J. Mourat
-                            <br><span>Val de Loire - France</span>
+                            <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -474,7 +443,7 @@
                     </div>
                     <div class="content__main__container__details">
                         <p>Domaine de la Zouina
-                            <br><span>AOC Guerrouane - Maroc</span>
+                            <br><span>AOC Guerrouane - Maroc <img src="../images/Flags/Maroc.webp" alt="drapeau du maroc" class="flag"></span>
                         </p>
                     </div>
                 </div>
@@ -510,7 +479,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>J.Mourat
-                    <br><span>Val de Loire - France</span>
+                    <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -531,7 +500,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Les Javeaux
-                    <br><span>Val de Loire - France</span>
+                    <br><span>Val de Loire - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -549,7 +518,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Maldant
-                    <br><span>Bourgogne - France</span>
+                    <br><span>Bourgogne - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -567,7 +536,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Vignoble Lacoste AOC 2015
-                    <br><span>Bordeaux - France</span>
+                    <br><span>Bordeaux - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -585,7 +554,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Château Franc Couplet
-                    <br><span>Bordeaux - France</span>
+                    <br><span>Bordeaux - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -603,7 +572,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Domaine Eric Gelly
-                    <br><span>Pays d'Oc - France</span>
+                    <br><span>Pays d'Oc - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -617,11 +586,11 @@
     <div class="content__main">
         <div class="content__main__container">
             <div class="content__main__container__name">
-                <h5>Cavée d'exception Fronton 2019</h5>
+                <h5>Cuvée d'exception Fronton 2019</h5>
             </div>
             <div class="content__main__container__details">
                 <p>Château Cransac
-                    <br><span>Pays d'Oc - France</span>
+                    <br><span>Pays d'Oc - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -639,7 +608,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Château de Lucquet
-                    <br><span>Pays d'Oc - France</span>
+                    <br><span>Pays d'Oc - France <img src="../images/Flags/France.webp" alt="drapeau de la france" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -657,7 +626,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Stellenrust
-                    <br><span>Afrique Du Sud</span>
+                    <br><span>Afrique Du Sud <img src="../images/Flags/AfriqueDuSud.webp" alt="drapeau de l'afrique du sud" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -675,7 +644,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Mont Liban
-                    <br><span>Liban</span>
+                    <br><span>Liban <img src="../images/Flags/Liban.webp" alt="drapeau du liban" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -693,7 +662,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Domaine de la Zouina
-                    <br><span>AOC Guerrouane - Maroc</span>
+                    <br><span>AOC Guerrouane - Maroc <img src="../images/Flags/Maroc.webp" alt="drapeau du maroc" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -711,7 +680,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Alta Vista
-                    <br><span>Argentine</span>
+                    <br><span>Argentine <img src="../images/Flags/Argentine.webp" alt="drapeau de l'argentine" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -729,7 +698,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Santa Anastasia
-                    <br><span>Italie</span>
+                    <br><span>Italie <img src="../images/Flags/Italie.webp" alt="drapeau de l'italie" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -747,7 +716,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Casas Patronales
-                    <br><span>Chili</span>
+                    <br><span>Chili <img src="../images/Flags/Chili.webp" alt="drapeau du chili" class="flag"></span>
                 </p>
             </div>
         </div>
@@ -765,7 +734,7 @@
             </div>
             <div class="content__main__container__details">
                 <p>Dominio De Punctum
-                    <br><span>Espagne</span>
+                    <br><span>Espagne <img src="../images/Flags/Espagne.webp" alt="drapeau de l'espagne" class="flag"></span>
                 </p>
             </div>
         </div>

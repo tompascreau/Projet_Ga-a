@@ -1,16 +1,17 @@
 @import "../base/fonts.scss";
-//@import "../components/loading.scss";
+@import "../components/loading.scss";
 
 $primary-color: #F3F2F0;
 $secondary-color: #ACCFC8;
 $tertiary-color: #6582AA;
+$fourth-color: #B7A9A6;
 $text-color: #000000;
+$text-header-color: #293A52;
 
 h1, h2, h3, h4, h5, h6, p
 {
   margin: 0;
   padding: 0;
-//  color: $secondary-color;
   color: $text-color;
 }
 
@@ -29,6 +30,7 @@ body
 
 h1
 {
+  color: $text-header-color;
   margin: auto;
   font-size: 46px;
   font-family: "clearSans";
@@ -70,18 +72,27 @@ p
 
 a
 {
-  color: $text-color;
+  color: $text-header-color;
   font-family: "Lato";
   text-decoration: none;
-  font-weight: 100;
+  font-weight: normal;
   font-size: 24px;
 }
 
 a:hover
 {
-    color: $tertiary-color;
+    color: $fourth-color;
 }
 
+#progress{
+	background-color: $fourth-color;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */
+}
 
 /**
   Début section header
@@ -104,15 +115,13 @@ header
   margin-top: 10px;
   width: 50px;
   height: 50px;
- /* background: rgb(155,164,177);
-  background: radial-gradient(circle, rgba(104,118,137,1) 0%, rgba(12,34,66,1) 70%);*/
   display: flex;
 }
 
 .fa-chevron-left
 {
   margin: auto;
-  color: $primary-color;
+  color: $text-header-color;
   font-size: 30px;
 }
 
@@ -150,7 +159,7 @@ header
   
 .list::-webkit-scrollbar-thumb 
 {
-    background-color: $tertiary-color; /* color of the scroll thumb */
+    background-color: $text-header-color; /* color of the scroll thumb */
     border-radius: 10px; /* roundness of the scroll thumb */
     width: 10px;
     border: 1px solid $secondary-color; /* creates padding around scroll thumb */
@@ -181,12 +190,14 @@ main
 {
   &__title
   {
+    background-color: $fourth-color;
+    padding: 3px 10px;
     margin-top: 66px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-family: "lato-regular";
+    font-family: "lato";
     &__quantity
     {
       display: flex;
@@ -240,6 +251,11 @@ main
   }
 }
 
+.flag
+{
+  width: 16px;
+}
+
 /**
   Fin de la section corps
 */
@@ -257,7 +273,7 @@ main
   {
     &__plus
     {
-      color: $text-color;
+      color: $text-header-color;
       font-size: 12px;
       margin-bottom: 10px;
       text-align: center;
@@ -267,7 +283,7 @@ main
   {
     &__plus
     {
-      color: $text-color;
+      color: $text-header-color;
       font-size: 12px;
       margin-top: 25px;
       text-align: center;

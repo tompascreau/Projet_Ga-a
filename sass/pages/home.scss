@@ -1,24 +1,30 @@
 @import "../base/fonts.scss";
 @import "../components/loading.scss";
 
+$primary-color: #F3F2F0;
+$secondary-color: #ACCFC8;
+$tertiary-color: #6582AA;
+$fourth-color: #B7A9A6;
+$text-color: #000000;
+$text-header-color: #293A52;
+
 h1, h2, h3, h4, h5, h6, p
 {
   margin: 0;
   padding: 0;
-  color: #0C2242;
 }
 
 body 
 {
+  background-color: $primary-color;
   margin: 0;
   height: 100vh;
-  padding: 0 5%;
-  background-color: #0C2242;
+  overflow: hidden;
 }
 
 h1
 {
-  color: #FFFFFF;
+  color: $text-header-color;
   font-size: 50px;
   font-family: "clearSans";
   font-weight: 100;
@@ -26,7 +32,7 @@ h1
 
 h3
 {
-  color: #FFFFFF;
+  color: $text-header-color;
   font-size: 28px;
   font-weight: lighter;
   font-family: "clearsans";
@@ -44,9 +50,10 @@ a
 
 header
 {
-    height: 50vh;
+    height: 35vh;
     position: relative;
     display: flex;
+    padding: 0 5%;
 }
 
 .content
@@ -56,9 +63,9 @@ header
       width: fit-content;
       margin-bottom: 10%;
       &__line{
-        height: 2px;
+        height: 3px;
         width: 70%;
-        background-color: #B97464;
+        background-color: $fourth-color;
       }
     }
 }
@@ -77,14 +84,31 @@ button
     font-size: 20px;
     width: 250px;
     height: 60px;
-    color: #FFFFFF;
-    border: #FFFFFF solid 2px;
-    background-color: #0C2242;
+    color: $primary-color;
+    border: $fourth-color solid 2px;
+    background-color: $text-header-color;
 }
 
 button:hover
 {
-    color: #B97464;
-    border: #B97464 solid 2px;
-    background-color: #0C2242;
+    color: $text-header-color;
+    border: $text-header-color solid 2px;
+    background-color: $primary-color;
+}
+
+.back
+{
+  z-index: -1;
+  position: absolute;
+  bottom: 0px;
+  max-height: 330px;
+  overflow: hidden;
+  &__image
+  {
+    width: 120%;
+    position: relative;
+    left: -10%;
+    bottom: -100px;
+    opacity: 0.6;
+  }
 }

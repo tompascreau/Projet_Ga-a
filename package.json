@@ -4,9 +4,9 @@
   "description": "site web et carte online pour le restaurant le gaia",
   "main": "index.js",
   "scripts": {
-    "homeSass": "sass --watch ./sass/pages/home.scss:./public/css/home.css",
-    "boissonsSass": "sass --watch ./sass/pages/boissons.scss:./public/css/boissons.css",
-    "carteSass": "sass --watch ./sass/pages/carte.scss:./public/css/carte.css"
+    "homeSass": "sass --watch ./sass/pages/home.scss:./public/css/home.css -w --style compressed",
+    "boissonsSass": "sass --watch ./sass/pages/boissons.scss:./public/css/boissons.css -w --style compressed",
+    "carteSass": "sass --watch ./sass/pages/carte.scss:./public/css/carte.css -w --style compressed"
   },
   "repository": {
     "type": "git",
