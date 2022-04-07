@@ -201,6 +201,10 @@ main
       &__right
       {
         padding-left: 20px;
+        &--special
+        {
+          padding-left: 30px;
+        }
       }
     }
   }

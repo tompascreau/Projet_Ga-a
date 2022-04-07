@@ -219,6 +219,8 @@ main {
     display: flex; }
     .content__title__quantity__right {
       padding-left: 20px; }
+      .content__title__quantity__right--special {
+        padding-left: 30px; }
 .content__line {
   width: 100%;
   height: 1px;

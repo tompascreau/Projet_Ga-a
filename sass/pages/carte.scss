@@ -1,15 +1,17 @@
 @import "../base/fonts.scss";
-@import "../components/loading.scss";
+//@import "../components/loading.scss";
 
-$primary-color: #FFFFFF;
-$secondary-color: #0C2242;
-$tertiary-color: #B97464;
+$primary-color: #F3F2F0;
+$secondary-color: #ACCFC8;
+$tertiary-color: #6582AA;
+$text-color: #000000;
 
 h1, h2, h3, h4, h5, h6, p
 {
   margin: 0;
   padding: 0;
-  color: $secondary-color;
+//  color: $secondary-color;
+  color: $text-color;
 }
 
 html
@@ -20,13 +22,13 @@ html
 
 body 
 {
+  background-color: $primary-color;
   margin: 0;
   padding: 0%;
 }
 
 h1
 {
-  color: $primary-color;
   margin: auto;
   font-size: 46px;
   font-family: "clearSans";
@@ -68,7 +70,7 @@ p
 
 a
 {
-  color: $primary-color;
+  color: $text-color;
   font-family: "Lato";
   text-decoration: none;
   font-weight: 100;
@@ -197,7 +199,7 @@ main
   &__line
   {
     width: 100%;
-    height: 1px;
+    height: 2px;
     border-radius: 5px;
     background-color: $tertiary-color;
   }
@@ -255,7 +257,7 @@ main
   {
     &__plus
     {
-      color: $primary-color;
+      color: $text-color;
       font-size: 12px;
       margin-bottom: 10px;
       text-align: center;
@@ -265,7 +267,7 @@ main
   {
     &__plus
     {
-      color: $primary-color;
+      color: $text-color;
       font-size: 12px;
       margin-top: 25px;
       text-align: center;
