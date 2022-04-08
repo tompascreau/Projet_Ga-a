@@ -48,6 +48,7 @@ h4
 {
   font-size: 20px;
   font-weight: bold;
+  color: $text-color;
 }
 
 h5
@@ -61,14 +62,14 @@ h6
 {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 p
 {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 a
@@ -76,7 +77,7 @@ a
   color: $text-header-color;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 24px;
 }
 
