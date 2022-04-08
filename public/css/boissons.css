@@ -1,10 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Lato";
-  src: url("/fonts/Lato/Lato-Regular.ttf") format("ttf"); }
-@font-face {
-  font-family: "clearSans";
-  src: url("/fonts/clear-sans/ClearSans-Medium.ttf") format("ttf"); }
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap");
 .loader {
   z-index: -1;
   position: fixed;
@@ -74,7 +69,7 @@
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
-  color: #000000; }
+  color: #293A52; }
 
 html {
   overflow-y: scroll;
@@ -93,7 +88,8 @@ h1 {
 
 h3 {
   font-size: 28px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #000000; }
 
 h4 {
   font-size: 20px;
@@ -101,22 +97,22 @@ h4 {
 
 h5 {
   font-size: 20px;
-  font-family: "lato";
+  font-family: 'Lato', sans-serif;
   font-weight: normal; }
 
 h6 {
   font-size: 20px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight: lighter; }
 
 p {
   font-size: 16px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight: lighter; }
 
 a {
   color: #293A52;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   font-weight: 100;
   font-size: 24px; }
@@ -214,7 +210,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-family: "lato"; }
+  font-family: 'Lato', sans-serif; }
   .content__title__quantity {
     display: flex; }
     .content__title__quantity__right {

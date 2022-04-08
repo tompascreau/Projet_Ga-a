@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p
 {
   margin: 0;
   padding: 0;
-  color: $text-color;
+  color: $text-header-color;
 }
 
 html
@@ -41,6 +41,7 @@ h3
 {
   font-size: 28px;
   font-weight: bold;
+  color: $text-color;
 }
 
 h4
@@ -52,28 +53,28 @@ h4
 h5
 {
   font-size: 20px;
-  font-family: "lato";
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
 }
 
 h6
 {
   font-size: 20px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
 }
 
 p
 {
   font-size: 16px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
 }
 
 a
 {
   color: $text-header-color;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   font-weight: normal;
   font-size: 24px;
@@ -197,7 +198,7 @@ main
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-family: "lato";
+    font-family: 'Lato', sans-serif;
     &__quantity
     {
       display: flex;
