@@ -40,15 +40,15 @@ h1
 h3
 {
   font-size: 28px;
-  font-weight: bold;
-  color: $text-color;
+  font-weight: 500;
+  color: $text-header-color;
 }
 
 h4
 {
   font-size: 20px;
-  font-weight: bold;
-  color: $text-color;
+  font-weight: 500;
+  color: $text-header-color;
 }
 
 h5
@@ -192,14 +192,21 @@ main
 {
   &__title
   {
-    background-color: $fourth-color;
-    padding: 3px 10px;
+    //background-color: $fourth-color;
+    padding: 3px 0px;
     margin-top: 66px;
-    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     font-family: 'Lato', sans-serif;
+    border-bottom: $fourth-color solid 2px;
+    border-bottom-width: 0cm;
+    &__line{
+      height: 3px;
+      width: 30%;
+      background-color: $fourth-color;
+      margin-bottom: 25px;
+    }
     &__quantity
     {
       display: flex;
@@ -223,6 +230,11 @@ main
     justify-content: space-between;
     &__container
     {
+      &--special
+      {
+        display: flex;
+        align-items: center;
+      }
         &__details
         {
             & span
@@ -232,6 +244,12 @@ main
         }
       &__name
       {
+        & span
+        {
+          font-style: italic;
+          font-weight: 100;
+          font-size: medium;
+        }
         &--group
         {
           font-weight: 100!important;
